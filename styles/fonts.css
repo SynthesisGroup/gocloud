@@ -1,0 +1,82 @@
+/* Arimo */
+@font-face {
+  font-family: 'Arimo Regular';
+  src: url("../fonts/Arimo/Arimo-Regular.ttf"); }
+
+@font-face {
+  font-family: 'Arimo Italic';
+  src: url("../fonts/Arimo/Arimo-Italic.ttf"); }
+    
+@font-face {
+  font-family: 'Arimo Bold';
+  src: url("../fonts/Arimo/Arimo-Bold.ttf"); }
+
+  @font-face {
+    font-family: 'Arimo Bold Italic';
+    src: url("../fonts/Arimo/Arimo-Bold-Italic.ttf"); }
+
+/* Font Awesome */
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src:  url("../fonts/Fontawesome/fa-solid-900.eot");
+  src:  url("../fonts/Fontawesome/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Fontawesome/fa-solid-900.woff2") format("woff2"),
+        url("../fonts/Fontawesome/fa-solid-900.woff") format("woff"),
+        url("../fonts/Fontawesome/fa-solid-900.ttf") format("truetype"),
+        url("../fonts/Fontawesome/fa-solid-900.svg#fontawesome") format("svg"); }
+
+@font-face {
+  font-family: 'Font Awesome 5 Light';
+  font-style: normal;
+  font-weight: 300;
+  src:  url("../fonts/Fontawesome/fa-light-300.eot");
+  src:  url("../fonts/Fontawesome/fa-light-300.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Fontawesome/fa-light-300.woff2") format("woff2"),
+        url("../fonts/Fontawesome/fa-light-300.woff") format("woff"),
+        url("../fonts/Fontawesome/fa-light-300.ttf") format("truetype"),
+        url("../fonts/Fontawesome/fa-light-300.svg#fontawesome") format("svg"); }
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  src:  url("../fonts/Fontawesome/fa-brands-400.eot");
+  src:  url("../fonts/Fontawesome/fa-brands-400.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Fontawesome/fa-brands-400.woff2") format("woff2"),
+        url("../fonts/Fontawesome/fa-brands-400.woff") format("woff"),
+        url("../fonts/Fontawesome/fa-brands-400.ttf") format("truetype"),
+        url("../fonts/Fontawesome/fa-brands-400.svg#fontawesome") format("svg"); }
+
+@font-face {
+  font-family: 'Font Awesome 5 Duotone';
+  font-style: normal;
+  font-weight: 900;
+  src:  url("../fonts/Fontawesome/fa-duotone-900.eot");
+  src:  url("../fonts/Fontawesome/fa-duotone-900.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Fontawesome/fa-duotone-900.woff2") format("woff2"),
+        url("../fonts/Fontawesome/fa-duotone-900.woff") format("woff"),
+        url("../fonts/Fontawesome/fa-duotone-900.ttf") format("truetype"),
+        url("../fonts/Fontawesome/fa-duotone-900.svg#fontawesome") format("svg"); }
+
+@font-face {
+  font-family: 'Font Awesome 5 Regular';
+  font-style: normal;
+  font-weight: 400;
+  src:  url("../fonts/Fontawesome/fa-regular-400.eot");
+  src:  url("../fonts/Fontawesome/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Fontawesome/fa-regular-400.woff2") format("woff2"),
+        url("../fonts/Fontawesome/fa-regular-400.woff") format("woff"),
+        url("../fonts/Fontawesome/fa-regular-400.ttf") format("truetype"),
+        url("../fonts/Fontawesome/fa-regular-400.svg#fontawesome") format("svg"); }
+
+/* Assignments */
+body { font-family: 'Arimo Regular'; }
+h1, h2, h3 { font-family: 'Arimo Bold'; }
+h4, h5, p, li { font-family: 'Arimo Regular'; }
+
+i, em { font-family: 'Arimo Italic'; }
+b, strong { font-family: 'Arimo Bold'; }
+
+.fal { font-family: 'Font Awesome 5 Light'; font-weight: 300; }
