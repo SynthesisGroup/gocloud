@@ -123,16 +123,16 @@
 .menu-link span::after { height: 2px; }
 .menu-link span { height: 3px; }
 
-#menu { background: #575353; height: 100vh !important; }
+#menu { background: #0F1427; height: 100vh !important; }
 #menu.panel { left: auto; right: -100%; padding-left: 20px; padding-right: 20px; }
 #menu.panel { box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4); }
 #menu ul { margin-top: 100px; padding: 0; list-style: none; }
 #menu li { text-align: left; padding: 0; margin-bottom: 20px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-#menu li a { font-weight: 300; text-transform: uppercase; font-size: 14px; }
+#menu li a { font-weight: 300; /*text-transform: uppercase;*/ font-size: 14px; }
 #menu li a { padding: 5px 10px; }
 #menu li a:hover { padding-left: 20px; }
 
-#menu li a { position: relative; text-indent: 50px; }
+#menu li a { position: relative; /*text-indent: 50px;*/ }
 #menu li a:before { position: absolute; content: "/"; left: -60px; opacity: 0; color: #FFF; }
 #menu li a:before { transform: scale(1, .55); font-size: 200%; transition: all 0.3s; }
 #menu li a:hover:before { opacity: 1; left: -50px; }

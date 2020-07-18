@@ -34,6 +34,9 @@
 .btn.disable { border-color: #CCC; color: #CCC !important; }
 .btn.disable:hover { border-color: #CCC !important; background: none !important; cursor: default; }
 
+.btn-group-sm > .btn,
+.btn-sm { padding: 9px 24px; font-size: 14px; line-height: 22px; border-width: 2px; }
+
 .btn-group-lg > .btn,
 .btn-lg { padding: 19px 48px; font-size: 24px; line-height: 32px; border-width: 5px; }
 

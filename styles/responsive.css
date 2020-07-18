@@ -23,6 +23,13 @@
 	.floor li { margin: 0 20px; }
 	.floor .column-copyright { text-align: center; }
 	.floor .column-technical { text-align: center; }
+
+	.deck-about { padding-left: 25px; padding-right: 25px; }
+	.deck-about:before { left: 0; }
+
+	.fold-products:before { width: 100%; }
+	.fold-contact form { padding-left: 25px; padding-right: 25px; }
+	.fold-contact form:before { right: 0; }
 }
 
 /* 480  */
@@ -60,6 +67,13 @@
 	.floor li { margin: 0 0 0 30px; }
 	.floor .column-copyright { text-align: left; }
 	.floor .column-technical { text-align: right; }
+
+	.deck-about { padding-left: 0; padding-right: 0; }
+	.deck-about:before { left: 100px; }
+
+	.fold-products:before { width: 50%; }
+	.fold-contact form { padding-left: 0; padding-right: 0; }
+	.fold-contact form:before { right: 100px; }
 }
 
 /* 960 */
