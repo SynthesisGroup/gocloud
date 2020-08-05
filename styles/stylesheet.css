@@ -112,6 +112,7 @@ header.onscroll .list-na li { margin: 0 0 0 20px; }
 .fold-products .card i  { color: #0099FF; margin-bottom: 20px; }
 .fold-products .card h5 { color: #0099FF; margin-bottom: 10px; font-weight: bold; }
 .fold-products .card-body { padding: 30px; }
+.fold-products .card-body p { font-size: 14px; line-height: 22px; }
 .fold-products .card-logo { margin: 0 auto 20px; max-width: 200px; display: block; }
 
 /* Deck: About */
