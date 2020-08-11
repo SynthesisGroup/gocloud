@@ -14,7 +14,7 @@ ScrollReveal().reveal('.sr-delay-5', { delay: '500' });
 ScrollReveal().reveal('.sr-delay-6', { delay: '600' });
 
 // Heading
-$(".heading").each(function() {
+$(".heading-").each(function() {
 	var firstWord,
 	openSpan = '<span>',
 	closeSpan = '</span>';

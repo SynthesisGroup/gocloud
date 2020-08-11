@@ -65,7 +65,7 @@
 	.floaters { bottom: 30px; }
 	.floaters.show { right: 30px; }
 
-	footer { padding-top: 80px; padding-bottom: 50px; }
+	footer { padding-top: 50px; padding-bottom: 30px; }
 
 	.floor li { margin: 0 0 0 30px; }
 	.floor .column-copyright { text-align: left; }

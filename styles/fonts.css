@@ -1,19 +1,19 @@
-/* Arimo */
+/* Montserrat */
 @font-face {
-  font-family: 'Arimo Regular';
-  src: url("../fonts/Arimo/Arimo-Regular.ttf"); }
+  font-family: 'Montserrat Light';
+  src: url("../fonts/Montserrat/Montserrat-Light.otf"); }
 
 @font-face {
-  font-family: 'Arimo Italic';
-  src: url("../fonts/Arimo/Arimo-Italic.ttf"); }
+  font-family: 'Montserrat Light Italic';
+  src: url("../fonts/Montserrat/Montserrat-LightItalic.otf"); }
     
 @font-face {
-  font-family: 'Arimo Bold';
-  src: url("../fonts/Arimo/Arimo-Bold.ttf"); }
+  font-family: 'Montserrat SemiBold';
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.otf"); }
 
   @font-face {
-    font-family: 'Arimo Bold Italic';
-    src: url("../fonts/Arimo/Arimo-Bold-Italic.ttf"); }
+    font-family: 'Montserrat SemiBold Italic';
+    src: url("../fonts/Montserrat/Montserrat-SemiBoldItalic.otf"); }
 
 /* Font Awesome */
 @font-face {
@@ -72,11 +72,11 @@
         url("../fonts/Fontawesome/fa-regular-400.svg#fontawesome") format("svg"); }
 
 /* Assignments */
-body { font-family: 'Arimo Regular'; }
-h1, h2, h3 { font-family: 'Arimo Bold'; }
-h4, h5, p, li { font-family: 'Arimo Regular'; }
+body { font-family: 'Montserrat Light'; }
+h1, h2, h3 { font-family: 'Montserrat SemiBold'; }
+h4, h5, p, li { font-family: 'Montserrat Light'; }
 
-i, em { font-family: 'Arimo Italic'; }
-b, strong { font-family: 'Arimo Bold'; }
+i, em { font-family: 'Montserrat Light Italic'; }
+b, strong { font-family: 'Montserrat SemiBold'; }
 
 .fal { font-family: 'Font Awesome 5 Light'; font-weight: 300; }
