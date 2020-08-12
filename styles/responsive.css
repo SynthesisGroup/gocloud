@@ -2,9 +2,6 @@
 @media (min-width: 320px) {	
 	.for-mobile { display: block !important; }
 	.for-screen { display: none !important; }
-	
-	/*h1 { font-size: 46px; line-height: 54px; margin-bottom: 20px; }
-	h2 { font-size: 38px; line-height: 46px; margin-bottom: 20px; }*/
 
 	h1 { font-size: 42px; line-height: 50px; margin-bottom: 20px; }
 	h2 { font-size: 34px; line-height: 42px; margin-bottom: 20px; }
@@ -20,19 +17,8 @@
 	.floaters { bottom: 20px; }
 	.floaters.show { right: 20px; }
 
-	footer { padding-top: 50px; padding-bottom: 0; }
-	footer .list-links { flex: 0 0 50%; max-width: 50%; }
-
-	.floor li { margin: 0 20px; }
-	.floor .column-copyright { text-align: center; }
-	.floor .column-technical { text-align: center; }
-
-	.deck-about { padding-left: 25px; padding-right: 25px; }
-	.deck-about:before { left: 0; }
-
-	.fold-products:before { width: 100%; }
-	.fold-contact form { padding-left: 25px; padding-right: 25px; }
-	.fold-contact form:before { right: 0; }
+	footer .col-left,
+	footer .col-right { text-align: center; }
 }
 
 /* 480  */
@@ -65,18 +51,8 @@
 	.floaters { bottom: 30px; }
 	.floaters.show { right: 30px; }
 
-	footer { padding-top: 50px; padding-bottom: 30px; }
-
-	.floor li { margin: 0 0 0 30px; }
-	.floor .column-copyright { text-align: left; }
-	.floor .column-technical { text-align: right; }
-
-	.deck-about { padding-left: 0; padding-right: 0; }
-	.deck-about:before { left: 100px; }
-
-	.fold-products:before { width: 50%; }
-	.fold-contact form { padding-left: 0; padding-right: 0; }
-	.fold-contact form:before { right: 100px; }
+	footer .col-left  { text-align: left; }
+	footer .col-right { text-align: right; }
 }
 
 /* 960 */
