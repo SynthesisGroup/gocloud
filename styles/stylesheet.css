@@ -37,7 +37,7 @@ canvas { position: absolute; }
 
 /* Heading */
 .heading { margin-bottom: 50px; }
-.heading h5 { position: relative; display: inline-block; padding-left: 20px; padding-right: 20px; color: #1177DD; margin-bottom: 10px; }
+.heading h5 { position: relative; display: inline-block; padding-left: 20px; padding-right: 20px; color: #1177DD; margin-bottom: 5px; }
 .heading h5:before,
 .heading h5:after { position: absolute; content: "•"; height: 100%; width: 20px; font-size: 40px; line-height: 20px; }
 .heading h5:before { left: 0; }
