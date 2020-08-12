@@ -37,7 +37,7 @@ canvas { position: absolute; }
 
 /* Heading */
 .heading { margin-bottom: 50px; }
-.heading h5 { position: relative; display: inline-block; padding-left: 20px; padding-right: 20px; color: #1177DD; }
+.heading h5 { position: relative; display: inline-block; padding-left: 20px; padding-right: 20px; color: #1177DD; margin-bottom: 10px; }
 .heading h5:before,
 .heading h5:after { position: absolute; content: "•"; height: 100%; width: 20px; font-size: 40px; line-height: 20px; }
 .heading h5:before { left: 0; }
@@ -93,7 +93,6 @@ header.onscroll .list-na li { margin: 0 0 0 20px; }
 /* Fold: Main */
 .fold.fold-main { position: relative; color: #FFFFFF; padding: 100px 0 0 !important; }
 .fold-main:before { position: absolute; height: 100%; width: 100%; top: 0; left: 0; content: ""; opacity: 0.1; }
-.fold-main:before { /*background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);*/ }
 .fold-main:before { content: ""; background-image: url(../images/bg-main.jpg); background-attachment: fixed; }
 
 .fold-main { display: flex; background-position-y: top; background-size: cover; background-color: #0f1427; }

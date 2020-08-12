@@ -119,9 +119,9 @@
 
 /* Customizations */
 .menu-link { left: auto; right: 0; width: 50px; height: 50px; position: relative; float: right; }
+.menu-link span { height: 3px; }
 .menu-link span::before,
 .menu-link span::after { height: 2px; }
-.menu-link span { height: 3px; }
 
 #menu { background: #0F1427; height: 100vh !important; }
 #menu.panel { left: auto; right: -100%; padding-left: 20px; padding-right: 20px; }
@@ -136,3 +136,12 @@
 #menu li a:before { position: absolute; content: "/"; left: -60px; opacity: 0; color: #FFF; }
 #menu li a:before { transform: scale(1, .55); font-size: 200%; transition: all 0.3s; }
 #menu li a:hover:before { opacity: 1; left: -50px; }
+
+.menu-link { width: 53px; }
+.menu-link span         { width: 20px; right: 0; left: auto; }
+.menu-link span::after  { width: 10px; right: 0; left: auto; }
+.menu-link span::before { width: 30px; right: 0; left: auto; }
+
+.menu-open span,
+.menu-open span::after,
+.menu-open span::before { width: 30px; }
