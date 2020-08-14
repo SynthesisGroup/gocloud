@@ -20,16 +20,16 @@
 .navbar-toggler:hover i {}
 
 /* Custom Buttons */
-.btn { border-radius: 100px; margin: 0 20px 20px 0; border-width: 2px; border-style: solid; padding: 13px 24px; color: #0F1427 }
+.btn { border-radius: 5px; margin: 0 20px 20px 0; border-width: 0; padding: 9px 24px; color: #FFFFFF }
 
 .btn:focus,
 .btn:active { outline: none !important; box-shadow: none; }
 
-.btn-primary { background-color: transparent; border-color: #1177DD; }
-.btn-primary:hover { background-color: transparent; border-color: #6EE1FE; color: #0F1427; }
+.btn-primary { background-color: #1177DD; }
+.btn-primary:hover { background-color: #6EE1FE; }
 
-.btn-secondary { background-color: transparent; border-color: #6EE1FE; }
-.btn-secondary:hover { background-color: transparent; border-color: #1177DD; color: #0F1427; }
+.btn-secondary { background-color: #6EE1FE; }
+.btn-secondary:hover { background-color: #1177DD; }
 
 .btn.disable { border-color: #CCC; color: #CCC !important; }
 .btn.disable:hover { border-color: #CCC !important; background: none !important; cursor: default; }

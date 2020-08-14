@@ -103,12 +103,17 @@ header.onscroll .list-na li { margin: 0 0 0 20px; }
 .fold-main .container .heading { border-bottom: 0; }
 
 /* Fold: Reasons */
+.fold-reasons { position: relative; }
+.fold-reasons:before { content: ""; width: 100%; height: 100%; top: 0; opacity: 0.1; }
+.fold-reasons:before { background: url(../svg/bg-wood-prints-.svg); position: absolute; }
 .fold.fold-reasons { min-height: auto; color: #FFFFFF; background-color: #0F1427; }
 .fold.fold-reasons svg { background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%); border-radius: 100px; }
 .fold.fold-reasons svg { margin-bottom: 20px; fill: #1177DD; width: 100px; height: 100px; padding: 30px; }
 
 /* Fold: Products */
-.fold-products { color: #FFFFFF; background-color: #0F1427; }
+.fold-products { color: #FFFFFF; background-color: #0F1427; position: relative; }
+.fold-products:before { content: ""; width: 100%; height: 100%; top: 0; opacity: 0.4; }
+.fold-products:before { background: url(../images/bg-dot.png); position: absolute; }
 .deck-products .card { background-color: transparent; }
 .deck-products .card a { color: #FFFFFF; }
 .deck-products .card-img-top { background-color: #FFFFFF; border-radius: 10px; padding: 20px; margin: 0 auto; }
@@ -124,7 +129,7 @@ header.onscroll .list-na li { margin: 0 0 0 20px; }
 .deck-products .card:hover .card-img-top { box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5); }
 .deck-products .card:hover .card-body:before { height: 100%; }
 .deck-products .card:hover .card-img-top { bottom: -40px; }
-      
+
 /* Deck: Blog */
 .deck-blog .card { border: 0; margin-bottom: 30px; }
 .deck-blog .card p { transition: all 0.3s; }
@@ -174,9 +179,7 @@ footer .col-right { text-align: right; }
 
 .se-pre-con { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9999; }
 .se-pre-con { display: flex; justify-content: center; align-items: center; background-color: #0F1427; }
-.se-pre-con .loader { background: linear-gradient(-45deg, #1177DD, #6EE1FE, #FFFFFF, #1177DD, #6EE1FE); }
-.se-pre-con .loader { background-size: 400% 400%; animation: gradient 5s ease infinite; height: 100px; width: 100px; }
-.se-pre-con .loader img { height: 110px; width: 110px; margin-top: -5px; margin-left: -5px; }
+.se-pre-con img { height: 75px; width: 75px; }
 
 @keyframes gradient {
    0%   { background-position: 0% 50%; }
