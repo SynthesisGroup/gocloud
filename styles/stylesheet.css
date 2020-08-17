@@ -227,6 +227,8 @@ footer .col-right { text-align: right; }
 .content .deck-blog .card-image { position: relative; height: 100%; overflow: hidden; }
 .content .deck-blog .card-image a { display: block; height: 100%; width: 100%; position: absolute; background-size: cover; }
 .content .deck-blog .card-image:hover a { transform: scale(1.1); filter: grayscale(100%); }
+.content ol li { margin-bottom: 10px; }
+.content ol ol { margin-top: 10px; }
 
 /* Sidebar */
 .sidebar .card { margin-bottom: 30px; }
